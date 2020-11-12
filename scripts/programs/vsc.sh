@@ -13,29 +13,33 @@ function install {
   name="${1}"
   code --install-extension ${name} --force
 }
+
+install aaron-bond.better-comments
 install batisteo.vscode-django
 install bibhasdn.django-html
 install bierner.markdown-preview-github-styles
 install byi8220.indented-block-highlighting
-install chenxsan.vscode-standardjs
 install christian-kohler.npm-intellisense
 install cliffordfajardo.highlight-line-vscode
+install cmstead.jsrefactor
 install coenraads.bracket-pair-colorizer
 install davidanson.vscode-markdownlint
+install dbaeumer.vscode-eslint
+install dotiful.dotfiles-syntax-highlighting
 install eg2.vscode-npm-script
+install eamodio.gitlens
 install emmanuelbeziat.vscode-great-icons
-install foxundermoon.shell-format
-install github.vscode-pull-request-github
 install glen-84.sass-lint
-install golang.go
 install hookyqr.beautify
 install joaompinto.vscode-graphviz
-install killalau.vscode-liquid-snippets
+install Kelvin.vscode-sshfs
 install liviuschera.noctis
+install mechatroner.rainbow-csv
+install mikestead.dotenv
 install ms-azuretools.vscode-docker
 install ms-python.python
 install ms-vscode-remote.remote-containers
-install neilding.language-liquid
+install ms-vsliveshare.vsliveshare
 install redhat.vscode-yaml
 install rido3.wordcount
 install simonsiefke.svg-preview
@@ -44,4 +48,3 @@ install victoriadrake.kabukicho
 install vscode-icons-team.vscode-icons
 install wayou.vscode-todo-highlight
 install yzhang.markdown-all-in-one
-install zxh404.vscode-proto3

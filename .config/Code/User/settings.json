@@ -170,6 +170,11 @@
         "**/templates/**/*.html": "django-html"
     },
     "files.autoSave": "afterDelay",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 1,
+    "breadcrumbs.enabled": false,
+    "editor.renderControlCharacters": false,
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
     "files.autoSaveDelay": 1500,
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
@@ -201,13 +206,11 @@
     "standard.autoFixOnSave": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
     "vsicons.dontShowNewVersionMessage": true,
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
     "window.restoreFullscreen": true,
     "window.restoreWindows": "none",
-    "window.zoomLevel": 0,
     "workbench.colorTheme": "Kabukichō",
     "workbench.iconTheme": "vscode-icons"
 }

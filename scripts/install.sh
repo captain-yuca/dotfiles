@@ -18,9 +18,7 @@ function install {
 }
 
 # Basics
-install awscli
 install chrome-gnome-shell
-install chromium-browser
 install curl
 install dialog
 install exfat-utils
@@ -28,9 +26,8 @@ install file
 install git
 install htop
 install nmap
-install openvpn
 install tree
-install vim
+install nano
 install wget
 
 # Image processing
@@ -50,5 +47,5 @@ sudo apt upgrade -y
 sudo apt autoremove -y
 
 # Fun hello
-figlet "Hello!" | lolcat
+figlet "Hello Captain Yuca!" | lolcat
 
