@@ -31,7 +31,6 @@ install nano
 install wget
 
 # Image processing
-install gimp
 install jpegoptim
 install optipng
 
